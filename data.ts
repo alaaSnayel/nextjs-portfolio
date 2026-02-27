@@ -2,8 +2,8 @@ import {
   Briefcase,
   Cloud,
   Code2,
-  Coffee,
   Cpu,
+  CpuIcon,
   Database,
   GitBranch,
   Globe,
@@ -22,17 +22,17 @@ import {
 import { FaGithub, FaLinkedin, FaLinkedinIn, FaTwitter } from "react-icons/fa6";
 
 export const stats = [
-  { label: "Years Experience", value: "5+" },
-  { label: "Projects Completed", value: "50+" },
+  { label: "Years Experience", value: "3+" },
+  { label: "Projects Completed", value: "30+" },
   { label: "Happy Clients", value: "30+" },
-  { label: "Students Taught", value: "1000+" },
+  { label: "Repositories on GitHub", value: "50+" },
 ];
 
 export const highlights = [
-  { icon: MapPin, text: "Based in San Francisco, CA" },
-  { icon: Briefcase, text: "Open for freelance work" },
-  { icon: GraduationCap, text: "CS Graduate from Stanford" },
-  { icon: Coffee, text: "Powered by coffee & curiosity" },
+  { icon: MapPin, text: "Based in Cairo, Egypt" },
+  { icon: Briefcase, text: "Available for Full-time work" },
+  { icon: GraduationCap, text: "Mechatronics Graduate from Minia University" },
+  { icon: CpuIcon, text: "Passionate about mechatronics & tech" },
 ];
 
 export const userReviewData = [
@@ -136,9 +136,9 @@ export const experiences = [
   },
   {
     type: "education",
-    title: "Bachelor of Computer Science",
-    company: "UC Berkeley",
-    period: "2014 - 2018",
+    title: "Bachelor of Mechatronics Engineering",
+    company: "Minia University",
+    period: "2017 - 2022",
     description:
       "Strong foundation in algorithms, data structures, and software engineering principles.",
     technologies: ["Computer Science", "Mathematics", "Problem Solving"],
@@ -224,7 +224,7 @@ export const skillCategories = [
   {
     title: "Backend",
     skills: [
-      { name: "Node.js", icon: Server },
+      { name: "Node.js", icon: "/images/skills/c.svg" },
       { name: "Express", icon: Layers },
       { name: "MongoDB", icon: Database },
       { name: "PostgreSQL", icon: Database },
